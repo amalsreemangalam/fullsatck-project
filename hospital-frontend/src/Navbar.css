@@ -1,0 +1,27 @@
+/* Add custom styles for the navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adds space between items */
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

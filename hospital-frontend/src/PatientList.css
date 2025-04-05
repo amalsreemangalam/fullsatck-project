@@ -1,0 +1,38 @@
+/* PatientList.css */
+
+/* Add some padding to the container */
+.patient-list-container {
+    padding: 20px;
+    background-color: #e0f7fa; /* Light Blue background */
+}
+
+/* Container for filters to display them in one line */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #b3e5fc; /* Light blue background for the filter section */
+    padding: 10px;
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Styling for the department filter to move it to the right */
+.department-filter {
+    margin-left: auto;
+}
+
+/* General input and select styling */
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    margin-right: 10px;
+    background-color: #ffffff; /* White background for input/select */
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Optional: adds rounded corners */
+}
+
+/* Label styling */
+label {
+    margin-right: 10px;
+}
